@@ -1,3 +1,3 @@
 function test() {}
 functon
-va x = 1;
+va xx = 1;
