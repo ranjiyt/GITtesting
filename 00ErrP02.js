@@ -67,12 +67,12 @@ Spry.Utils.createXMLHttpRequest = function()
 		// Try to use the native version of XMLHttpRequest if it exists.
 
 		if (!req && window.XMLHttpRequest)
-			req = new XMLHttpRequest();
+			req = new XMLHttpRequest()
 	}
 	catch (e) { req = null;	}
 
 	if (!req)
-		Spry.Debug.reportError("Failed to create an XMLHttpRequest object!" );
+		Spry.Debug.reportError("Failed to create an XMLHttpRhbjhequest object!" );
 
 	return req;
 };
